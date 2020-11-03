@@ -52,7 +52,7 @@ msrs label dword
 	dd 0C0001019h,0C000101Ah,0C000101Bh,0C0001027h	;DRX_ADDR_MASK
 	dd 0C0010010h	;SYSCFG
 	dd 0C001001Ah
-	dd 0C001001Bh
+	dd 0C001001Dh
 	dd 0C0010030h, 0C0010031h, 0C0010032h
 	dd 0C0010033h, 0C0010034h, 0C0010035h
 	dd 0C0010111h, 0C0010112h, 0C0010113h	;SMBASE, SMM_ADDR, SMM_MASK
@@ -73,7 +73,7 @@ names label word
 	dw DStr("MtrrBase0"),DStr("MtrrMask0"),DStr("MtrrBase1"),DStr("MtrrMask1")
 	dw DStr("MtrrBase2"),DStr("MtrrMask2"),DStr("MtrrBase3"),DStr("MtrrMask3")
 	dw DStr("MtrrBase4"),DStr("MtrrMask4"),DStr("MtrrBase5"),DStr("MtrrMask5")
-	dw DStr("MtrrBase6"),DStr("MtrrMask6"),DStr("MtrrBase7"),DStr("MtrrMask8")
+	dw DStr("MtrrBase6"),DStr("MtrrMask6"),DStr("MtrrBase7"),DStr("MtrrMask7")
 
 	dw DStr("MtrrFix64k_00000"),DStr("MtrrFix16k_80000"),DStr("MtrrFix16k_A0000")
 	dw DStr("MtrrFix4k_C0000"),DStr("MtrrFix4k_C8000"),DStr("MtrrFix4k_D0000"),DStr("MtrrFix4k_D8000")
